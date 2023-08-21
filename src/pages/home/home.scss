@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    ;
+
+   
+
+.homeContainer{
+    flex: 6 ;
+     margin-left: 160px; /* Same as the width of the sidenav */
+  
+
+    .homewidgets{
+        display: flex;
+        margin: 20px;
+    }
+}
+}

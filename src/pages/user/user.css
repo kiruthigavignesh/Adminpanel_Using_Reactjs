@@ -1,0 +1,140 @@
+.user{
+    flex: 4;
+    margin-left: 160px;
+    padding: 20px;
+    background: #f5e6d5;
+height: 100vh;
+
+}
+
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .userAddbutton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+font-size: 16px;    cursor: pointer;
+font-weight: 600;
+ }
+
+ .userContainer{
+    display: flex;
+    margin-top: 20px;
+ }
+ .userShow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+ .userupdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-left: 20px;
+ }
+
+ .userShowtop{
+    display: flex;
+    align-items: center;
+ }
+ .userShowToptitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+ }
+ .usershowimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+
+ .userShowusername{
+    font-weight: 600;
+ }
+ .userShowusertitle{
+    font-weight: 300;
+ }
+.userShowbottom{
+    margin-top: 20px;
+}
+ .userShowtitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+
+ }
+ .userShowinfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+ }
+ .userShowinfotitle{
+    margin-left: 20px;
+ }
+ .userUpdateimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+
+ }
+
+ .userUpdateform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+ }
+
+ .userUpdatetitle{
+    font-weight: 600;font-size: 24px;
+ }
+ .userUpdateitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+ }
+ .userUpdateitem>label{
+    font-size: 14px;margin-bottom: 5px;
+ }
+.userUpdateinput{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+}
+.userUpdateright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userUpdateicon{
+    cursor: pointer;
+}
+
+.userUpdatebutton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 300;
+
+font-size: 16px;}
+.userUpdatelabel{
+    font-weight: 600;
+}
+
